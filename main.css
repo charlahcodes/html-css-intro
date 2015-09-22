@@ -7,23 +7,11 @@ header {
   text-align: center;
   font-size: large;
   font-family: sans-serif;
-  color: white;
-  border-radius: 20px;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 20px;
-  float: left;
-  margin-bottom: 10px;
-}
-
-p { 
- font-family: sans-serif;
- background-color: #bbd1e8;
- border-radius: 20px;
- padding-left: 5 px;
- padding-right: 10 px; 
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 footer {
@@ -35,9 +23,44 @@ footer {
   clear: left;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {background-color: white;}
+
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.portrait {
+  max-width: 100%;
+  border-radius: 20px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.bio { 
+ font-family: sans-serif;
+ background-color: #bbd1e8;
+ border-radius: 20px;
+ padding-left: 5 px;
+ padding-right: 10 px; 
+}
+
 .caesar {
 max-width: 100%;
 float: left;
+}
+
+.maintext {
+padding: 10px;
+
 }
 
 
