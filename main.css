@@ -16,7 +16,7 @@ header {
   color: white;
   float: right;
   padding: 5px;
-  width: 200px;
+  margin: auto;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ header {
   color: white;
   float: left;
   padding: 5px;
-  width: 200px;
+  margin: auto;
   text-align: center;
 }
 
@@ -37,6 +37,7 @@ header {
 ul {
   font-weight: bold;
   list-style-type: none;
+  vertical-align: middle;
 }
 
 .left a {
@@ -49,7 +50,12 @@ color: green;
 text-decoration: none;
 }
 
-p {
+.table {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text {
  font-style: italic; 
  font-family: sans-serif;
  background-color: #bbd1e8;
