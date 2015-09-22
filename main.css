@@ -3,12 +3,12 @@ body {
 }
 
 header {
-  background: #7E4324;
+  background-color: #bbd1e8;;
   text-align: center;
   font-size: large;
   font-family: sans-serif;
   color: white;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 img {
@@ -37,7 +37,6 @@ footer {
 
 .caesar {
 max-width: 100%;
-
 float: left;
 }
 
