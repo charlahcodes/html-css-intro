@@ -3,15 +3,16 @@ body {
 }
 
 header {
-  background-color: #bbd1e8;;
+  background-color: #5e85c5;
   text-align: center;
-  font-size: large;
+  font-size: 16px;
   font-family: sans-serif;
-  width: 50%;
-  display: block;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -18px;
   border-radius: 5px;
+  color: white;
 }
 
 footer {
@@ -29,13 +30,13 @@ a {
   font-weight: bold;
 }
 
-a:hover {background-color: white;}
+a:hover {color: red;}
 
 .cover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .portrait {
@@ -43,6 +44,7 @@ a:hover {background-color: white;}
   border-radius: 20px;
   float: left;
   margin-bottom: 10px;
+  border: 4px solid #bbd1e8;
 }
 
 .bio { 
@@ -61,6 +63,17 @@ float: left;
 .maintext {
 padding: 10px;
 
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #bbd1e8;
+  width: 10px;
+  height: 10px;  
+  clear: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid #5e85c5;
 }
 
 
